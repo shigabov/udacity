@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Udacity</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="spotify">This button will lunch SPOTIFY app!</string>
+    <string name="scores">This button will lunch SCORES app!</string>
+    <string name="library">This button will lunch LIBRARY app!</string>
+    <string name="bib">This button will lunch BUILD IT BIGGER app!</string>
+    <string name="xyz">This button will lunch XYZ READER app!</string>
+    <string name="capstone">This button will lunch my own app!</string>
+
+
 </resources>
