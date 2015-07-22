@@ -15,10 +15,15 @@
 
     <ScrollView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView2"
+        android:layout_marginBottom="20dp"
+        >
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
             <Button
                 android:layout_width="250dp"
                 android:layout_height="wrap_content"
@@ -26,8 +31,6 @@
                 android:id="@+id/btn_spotify"
                 android:background="#fff08c35"
                 android:layout_marginTop="20dp"
-                android:layout_below="@+id/textView2"
-                android:layout_centerHorizontal="true"
                 android:onClick="justText" />
 
             <Button
@@ -37,8 +40,6 @@
                 android:id="@+id/btn_scores"
                 android:background="#fff08c35"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/btn_spotify"
-                android:layout_centerHorizontal="true"
                 android:onClick="justText" />
 
             <Button
@@ -48,8 +49,6 @@
                 android:id="@+id/btn_library"
                 android:background="#fff08c35"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/btn_scores"
-                android:layout_centerHorizontal="true"
                 android:onClick="justText" />
 
             <Button
@@ -59,8 +58,6 @@
                 android:id="@+id/btn_bib"
                 android:background="#fff08c35"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/btn_library"
-                android:layout_centerHorizontal="true"
                 android:onClick="justText" />
 
             <Button
@@ -70,8 +67,6 @@
                 android:id="@+id/btn_xyz"
                 android:background="#fff08c35"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/btn_bib"
-                android:layout_centerHorizontal="true"
                 android:onClick="justText" />
 
             <Button
@@ -81,8 +76,6 @@
                 android:id="@+id/btn_capstone"
                 android:background="#fff00041"
                 android:layout_marginTop="10dp"
-                android:layout_below="@+id/btn_xyz"
-                android:layout_centerHorizontal="true"
                 android:textColor="@android:color/white"
                 android:onClick="justText" />
         </LinearLayout>
